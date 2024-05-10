@@ -20,5 +20,5 @@ int main()
     std::cout << "В час в зарабатываете: " << (money / hours);
     std::cout << " " << std::endl;
     std::cout << "-----" << std::endl;
-    std::cout << " " << std::endl;
+    std::cout << " " << std::endl; 
 }
