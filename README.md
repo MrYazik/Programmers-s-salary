@@ -81,5 +81,5 @@ chmod +x a.out
 - [MrYaz](tg://resolve?domain=bzvyagintsev) — Разработчик, обучающийся языку программирования C++.
 
 ## Источники
-Идея взята с сайта где я и обучаюсь: [METANIT.COM](metanit.com).
-Шаблон README.md взят с: [GITHUB](https://gist.github.com/bzvyagintsev/0c4adf4403d4261808d75f9576c814c2)
+- Идея взята с сайта где я и обучаюсь: [METANIT.COM](metanit.com).
+- Шаблон README.md взят с: [GITHUB](https://gist.github.com/bzvyagintsev/0c4adf4403d4261808d75f9576c814c2)
