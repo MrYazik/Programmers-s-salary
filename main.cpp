@@ -8,35 +8,40 @@ using std::cin;
 
 // Переменные
 
-double hours = 0;
-long double money = 0;
+int hours = 0;
+int money = 0;
 
 int main()
 {
-    std::cout << " " << std::endl;
-    std::cout << "-----" << std::endl;
+    cout << " " << endl;
+    cout << "-----" << endl;
 
     // Вопросы для начала вычесления
 
-    std::cout << "Введите количество времени которое вы работаете (в часах): ";
-    std::cin >> hours;
-    std::cout << "Введите количество денег которое вы заработали (в рублях): ";
-    std::cin >> money;
+    cout << "Введите количество времени которое вы работаете (в часах): ";
+    cin >> hours;
+    cout << "Введите количество денег которое вы заработали (в рублях): ";
+    cin >> money;
 
-    std::cout << " " << std::endl;
-    std::cout << "-----" << std::endl;
+    cout << " " << endl;
+    cout << "-----" << endl;
+    cout << " " << endl;
 
     // Вывод + вычисления
+    cout << "-- Если вы будете продолжать точно в таком темпе вы будете --" << endl;
+    cout << "-- * У вывода обрезана дробная часть --" << endl;
 
-    std::cout << "В секунду вы зарабатываете: " << (money * (hours / 60 / 60)) << endl;
-    std::cout << "В минуту вы зарабатываете: " << (money * (hours / 60)) << endl;
-    std::cout << "В час вы зарабатываете: " << (money / hours) << endl;
-    std::cout << "В неделю вы зарабатываете: " << (money / hours * 24) * 7 << endl;
-    std::cout << "В месяц вы зарабатываете: " << (money * (hours * 24 * 7 * 4)) << endl;
-    std::cout << "В год вы зарабатываете: " << (money * (hours * 24 * 365)) << endl;
+    cout << " " << endl;
+    
+    cout << "В секунду зарабатывать: " << (money / (hours * 60 * 60)) << " рублей" << endl;
+    cout << "В минуту зарабатывать: " << (money / (hours * 60)) << " рублей" << endl;
+    cout << "В час зарабатывать: " << (money / hours) << " рублей" << endl;
+    cout << "За неделю (7 дней) зарабатывать: " << (money * 7) << " рублей" << endl;
+    cout << "За месяц (30 дней) зарабатывать: " << (money * 30) << " рублей" << endl;
+    cout << "За год (365 дней) зарабатывать: " << (money * 365) << " рублей" << endl;
 
 
-    std::cout << " " << std::endl;
-    std::cout << "-----" << std::endl;
-    std::cout << " " << std::endl; 
+    std::cout << " " << endl;
+    std::cout << "-----" << endl;
+    std::cout << " " << endl; 
 }
